@@ -10,6 +10,8 @@ Verify Home Screen Appears
 Click Sign In Button On Home Screen
     Click Element                    locator=//android.widget.Button[@resource-id="com.example.myapplication:id/login"]
 
+Click Search Button On Home Screen
+    Click Element                    locator=//android.widget.Button[@resource-id="com.example.myapplication:id/search_flight"]
 
 Verify Success Login
     Wait Until Element Is Visible    locator=//android.widget.TextView[@resource-id="com.example.myapplication:id/textView"]
