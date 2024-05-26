@@ -71,7 +71,7 @@ Negative - User Should Not Be Able To Login With Empty Password Field
     Click Sign In Button On Login Screen
     Verify Failed Login
 
-User Should Not Be Able To Login With Empty Credential
+Negative - User Should Not Be Able To Login With Empty Credential
     [Tags]    tc-007    mobile    app
     Verify Home Screen Appears
     Click Sign In Button On Home Screen
