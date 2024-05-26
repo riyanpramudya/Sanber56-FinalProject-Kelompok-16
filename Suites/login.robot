@@ -18,7 +18,7 @@ ${EMPTY_DATA}                   ${EMPTY}
 
 *** Test Cases ***
 Positive - User Should Be Able To Login With Valid Credential
-    [Tags]    tc-001    mobile    app
+    [Tags]    tc-001    Sign In
     Verify Home Screen Appears
     Click Sign In Button On Home Screen
     Input Username    username=${VALID_USERNAME}
@@ -27,7 +27,7 @@ Positive - User Should Be Able To Login With Valid Credential
     Verify Success Login
 
 Negative - User Should Not Be Able To Login With Invalid Credential
-    [Tags]    tc-002    mobile    app
+    [Tags]    tc-002    Sign In
     Verify Home Screen Appears
     Click Sign In Button On Home Screen
     Input Username    username=${INVALID_USERNAME}
@@ -36,7 +36,7 @@ Negative - User Should Not Be Able To Login With Invalid Credential
     Verify Failed Login
 
 Negative - User Should Not Be Able To Login With Invalid Username Capital
-    [Tags]    tc-003    mobile    app
+    [Tags]    tc-003    Sign In
     Verify Home Screen Appears
     Click Sign In Button On Home Screen
     Input Username    username=${INVALID_USERNAME_CAPITAL}
@@ -45,7 +45,7 @@ Negative - User Should Not Be Able To Login With Invalid Username Capital
     Verify Failed Login
 
 Negative - User Should Not Be Able To Login With Invalid Password Capital
-    [Tags]    tc-004    mobile    app
+    [Tags]    tc-004    Sign In
     Verify Home Screen Appears
     Click Sign In Button On Home Screen
     Input Username    username=${VALID_USERNAME}
@@ -54,7 +54,7 @@ Negative - User Should Not Be Able To Login With Invalid Password Capital
     Verify Failed Login
 
 Negative - User Should Not Be Able To Login With Empty Username Field
-    [Tags]    tc-005    mobile    app
+    [Tags]    tc-005    Sign In
     Verify Home Screen Appears
     Click Sign In Button On Home Screen
     Input Username    username=${EMPTY_DATA}
@@ -63,7 +63,7 @@ Negative - User Should Not Be Able To Login With Empty Username Field
     Verify Failed Login
 
 Negative - User Should Not Be Able To Login With Empty Password Field
-    [Tags]    tc-006    mobile    app
+    [Tags]    tc-006    Sign In
     Verify Home Screen Appears
     Click Sign In Button On Home Screen
     Input Username    username=${VALID_USERNAME}
@@ -72,7 +72,7 @@ Negative - User Should Not Be Able To Login With Empty Password Field
     Verify Failed Login
 
 Negative - User Should Not Be Able To Login With Empty Credential
-    [Tags]    tc-007    mobile    app
+    [Tags]    tc-007    Sign In
     Verify Home Screen Appears
     Click Sign In Button On Home Screen
     Input Username    username=${EMPTY_DATA}
