@@ -1,0 +1,38 @@
+#Locator for positive case page 1
+label_choosing_oneway_categories : '//android.support.v7.app.ActionBar.Tab[@content-desc="One Way"]'
+label_choosing_roundtrip_categories : '//android.support.v7.app.ActionBar.Tab[@content-desc="Round Trip"]'
+
+label_choosing_from_city : '//android.widget.TextView[@resource-id="android:id/text1" and @text="New York"]'
+label_option_from_city : '//android.widget.ListView'
+label_option_chikago_city : '//android.widget.TextView[@resource-id="android:id/text1" and @text="Chicago"]'
+
+label_choosing_to_city : '//android.widget.TextView[@resource-id="android:id/text1" and @text="London"]'
+label_option_to_city : '//android.widget.ListView'
+label_option_to_city_paris : '//android.widget.TextView[@resource-id="android:id/text1" and @text="Paris"]'
+
+label_choosing_class : '//android.widget.TextView[@resource-id="android:id/text1" and @text="Economy"]'
+label_option_class : '//android.widget.ListView'
+label_option_class_first : '//android.widget.TextView[@resource-id="android:id/text1" and @text="First"]'
+
+label_choosing_start_date : '//android.widget.TextView[@resource-id="com.example.myapplication:id/textStartDate"]'
+label_calendar_1 : '//android.view.View[@resource-id="android:id/month_view"]'
+label_calendar_ok_1 : '//android.widget.Button[@resource-id="android:id/button1"]'
+label_calendar_2 : '//android.widget.LinearLayout[@resource-id="android:id/date_picker_header"]/android.widget.LinearLayout'
+label_choosing_end_date : '//android.widget.TextView[@resource-id="com.example.myapplication:id/textEndDate"]'
+
+radio_button_flight : '//android.widget.RadioButton[@resource-id="com.example.myapplication:id/radioButtonFlight"]'
+radio_button_flight_hotel : '//android.widget.RadioButton[@resource-id="com.example.myapplication:id/radioButtonFlightHotel"]'
+check_box_1day : '//android.widget.CheckBox[@resource-id="com.example.myapplication:id/checkBoxDay"]'
+
+button_book : '//android.widget.Button[@resource-id="com.example.myapplication:id/book_flight"]'
+
+#Locator for positive case page 2
+toronto_text_page2 : '//android.widget.TextView[@resource-id="com.example.myapplication:id/textFromCity"]'
+plane_picture : '//android.widget.ImageView[@resource-id="com.example.myapplication:id/imageView5"]'
+paris_text_page2 : '//android.widget.TextView[@resource-id="com.example.myapplication:id/textToCity"]'
+text_view_price_booking : '//android.widget.TextView[@resource-id="com.example.myapplication:id/textView6"]'
+
+label_price_1860 : '//android.widget.Button[@resource-id="com.example.myapplication:id/price1"]'
+label_confirm_order : '//android.widget.Button[@resource-id="com.example.myapplication:id/confirm_order"]'
+
+label_complete_order : '//android.widget.CheckedTextView[@resource-id="com.example.myapplication:id/checkedTextView"]'

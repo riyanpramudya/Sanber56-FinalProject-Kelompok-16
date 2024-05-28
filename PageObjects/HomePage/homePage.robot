@@ -16,4 +16,9 @@ Click Search Button On Home Screen
 Verify Success Login
     Wait Until Element Is Visible    locator=//android.widget.TextView[@resource-id="com.example.myapplication:id/textView"]
 
+Click Book Button on Home Screen
+    Click Element                     locator=//android.widget.Button[@resource-id="com.example.myapplication:id/book"]
+
+
+
 
