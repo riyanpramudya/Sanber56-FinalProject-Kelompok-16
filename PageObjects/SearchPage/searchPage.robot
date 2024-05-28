@@ -30,3 +30,6 @@ Verify Flight Number Page
 Verify Error Message Invalid Flight Number
     Wait Until Page Contains Element   ${error_message_invalid_flight_number}
 
+Verify Error Message Empty Flight Number
+    Wait Until Page Contains Element   ${error_message_invalid_flight_number}
+
